@@ -32,12 +32,13 @@ void nearestRoundOff()
 }
 // end of logical function
 
+// this func repeats the action if 1 is pressed and this is not an important function
 void mainLoop() 
 {
     while (true) {
         nearestRoundOff();
     }
-}
+} // repeater function // 
 
 // ------------------------------------------------------------------------------------------------- //
 
